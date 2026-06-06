@@ -1,0 +1,38 @@
+RewriteEngine On
+
+# Global
+RewriteRule ^admin_login$ admin_login.php
+RewriteRule ^admin$ admin.php
+RewriteRule ^Dashboard$ admin.php
+RewriteRule ^home$ index.php
+RewriteRule ^terrains$ terrains.php
+RewriteRule ^creneaux$ creneaux.php
+RewriteRule ^reserver$ reserver.php
+RewriteRule ^monprofil$ monprofil.php
+RewriteRule ^login$ login.php
+
+# View Utilisateur
+RewriteRule ^ListeUtilisateur$ admin.php
+RewriteRule ^CorbeilleUtilisateur$ admin.php
+
+# View Terrain
+RewriteRule ^ListeTerrain$ admin.php
+RewriteRule ^CorbeilleTerrain$ admin.php
+
+# View Reservation
+RewriteRule ^ListeReservation$ admin.php
+RewriteRule ^CorbeilleReservation$ admin.php
+
+# View Paiement
+RewriteRule ^ListePaiement$ admin.php
+RewriteRule ^CorbeillePaiement$ admin.php
+
+# View Disponibilite
+RewriteRule ^ListeDisponibilite$ admin.php
+RewriteRule ^CorbeilleDisponibilite$ admin.php
+
+# View Profil
+RewriteRule ^Profil$ admin.php
+
+# Deconnexion
+RewriteRule ^Deconnexion$ deconnexion.php
